@@ -1,0 +1,20 @@
+$primary-color: #EC5A00;
+$border-color: #EC9200;
+$red-one: #E2001A;
+$text-color: #8F3700;
+
+body {
+    background-color: $primary-color;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    color: $text-color;
+}
